@@ -510,6 +510,77 @@ h3 {
   max-width: 42ch;
 }
 
+
+/* Pricing */
+.pricing {
+  padding: 0 0 2.5rem;
+}
+
+.pricing-inner {
+  background: var(--noche);
+  color: var(--blanco);
+  border-radius: calc(var(--radius) + 0.25rem);
+  padding: 1.25rem 1rem 1.35rem;
+}
+
+.pricing-inner h2 {
+  margin-bottom: 1rem;
+  max-width: 20ch;
+}
+
+.pricing-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.pricing-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius);
+  padding: 0.95rem 1rem;
+}
+
+.pricing-card p {
+  color: rgba(245, 244, 239, 0.88);
+  font-size: 0.95rem;
+}
+
+.pricing-label {
+  font-size: 0.8rem !important;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7fd4d9 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.pricing-amount {
+  font-size: 1.35rem !important;
+  font-weight: 800;
+  color: var(--blanco) !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.pricing-micro {
+  color: rgba(245, 244, 239, 0.75);
+  font-size: 0.875rem;
+  margin: 0 0 1rem;
+  max-width: 42ch;
+}
+
+.pricing .btn-primary {
+  background: var(--accion);
+  color: var(--blanco);
+}
+
+@media (min-width: 720px) {
+  .pricing-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /* Contact */
 .contact {
   padding: 2.5rem 0;
